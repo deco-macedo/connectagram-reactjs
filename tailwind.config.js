@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  Moon: 'class',
+  darkMode: 'class',
   mode: 'jit',
   purge: [
-    './src/**/*.tsx'
+    './src/**/*.tsx', './index.html'
   ],
   content: [
     './src/**/*.tsx', './index.html'

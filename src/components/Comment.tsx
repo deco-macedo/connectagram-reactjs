@@ -21,14 +21,14 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
     return (
         <div className="mt-6 flex gap-4"> {/* .comment */}
-            <Avatar hasBorder={false} src="https://github.com/eaitae.png" />
+            <Avatar hasBorder={false} src="https://github.com/diego3g.png" />
 
             <div className="flex-1"> {/* .commentBox */}
             
             <div className="dark:bg-gray-600 bg-gray-200 rounded-[8px] p-4"> {/* .commentContent */}
                 <header className="flex items-start justify-between">
                     <div> {/* .authorAndTime */}
-                        <strong className="block text-sm leading-relaxed">Tauane Matos</strong>
+                        <strong className="block text-sm leading-relaxed">Diego Fernandes</strong>
                         <time className="text-[0.75rem] leading-relaxed dark:text-gray-400" title="13 de julho às 18:42h" dateTime="2022-07-13 18:42:00">Cerca de 1h atrás</time>
                     </div>
                     <button

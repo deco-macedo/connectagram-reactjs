@@ -14,7 +14,7 @@ export function Sidebar() {
                 <Avatar src="https://github.com/deco-macedo.png"/>
 
                 <strong className="mt-4 dark:text-gray-100 leading-relaxed">André Macedo</strong>
-                <span className="text-sm dark:text-gray-400 leading-relaxed">Front End Developer</span>
+                <span className="text-sm dark:text-gray-400 leading-relaxed">Full Stack Developer</span>
             </div>
 
             <footer className="border-t dark:border-gray-600 pt-6 px-8 pb-8">
